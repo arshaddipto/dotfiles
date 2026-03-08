@@ -23,3 +23,7 @@ post_hook = 'pkill -SIGUSR2 waybar'
 [templates.hyprland]
 input_path = './templates/hyprland-colors.conf'
 output_path = '~/.config/hypr/colors.conf'
+
+[templates.vesktop]
+input_path = './templates/midnight-discord.css'
+output_path = '~/.config/vesktop/themes/midnight-discord.css'
