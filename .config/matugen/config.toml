@@ -12,8 +12,7 @@ block_prefix = "<*"
 block_postfix = "*>"
 
 [config.wallpaper]
-command = "hyprctl"
-arguments = ["hyprpaper", "wallpaper", ","]
+command = "hyprctl hyprpaper wallpaper ,{{ image }}"
 
 [templates.waybar]
 input_path = './templates/colors.css'
