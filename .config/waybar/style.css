@@ -59,10 +59,6 @@ window#waybar.empty #window {
     padding: 0 8px;
 }
 
-#tray {
-    background: @surface;
-}
-
 #custom-power {
     color: @error;
 }
