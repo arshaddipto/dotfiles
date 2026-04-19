@@ -24,6 +24,26 @@ window#waybar.empty #window {
     box-shadow: inset 0 -3px @on_surface;
 }
 
+#workspaces button.active {
+    background: @primary;
+    color: @on_primary;
+    border-radius: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#workspaces button.active:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
+
+#workspaces button.urgent {
+    background: @error;
+    color: @on_error;
+}
+
 .modules-center {
     margin: 0 8px;
 }
