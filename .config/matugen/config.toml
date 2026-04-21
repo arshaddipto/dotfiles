@@ -14,6 +14,11 @@ block_postfix = "*>"
 [config.wallpaper]
 command = "hyprctl hyprpaper wallpaper ,{{ image }}"
 
+# Style waybar calendar using matugen
+[templates.waybar_clock]
+input_path = './templates/waybar-clock.jsonc'
+output_path = '~/.config/waybar/ModuleClock.jsonc'
+
 [templates.waybar]
 input_path = './templates/colors.css'
 output_path = '~/.config/waybar/colors.css'

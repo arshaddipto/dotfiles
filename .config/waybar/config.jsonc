@@ -1,5 +1,9 @@
 // -*- mode: jsonc -*-
 {
+    "include": [
+        // generated using matugen to apply colors to spans inside calendar tooltip
+        "ModuleClock.jsonc"
+    ],
     "height": 32,
     "spacing": 8,
     "margin-top": 8,
@@ -28,31 +32,6 @@
         "format": "{icon}",
         "persistent-workspaces": {
             "*": 5
-        }
-    },
-    // modules-center
-    "clock": {
-        "format": "{:%I:%M %p}",
-        "format-alt": "{:%A, %B %d, %Y (%R)}",
-        "tooltip": true,
-        "tooltip-format": "<tt>{calendar}</tt>",
-        "calendar": {
-            "mode": "year",
-            "mode-mon-col": 4,
-            "weeks-pos": "right",
-            "on-scroll": 1,
-            "format": {
-                "months": "<span color='#f8f8f2'><b>{}</b></span>",
-                "days": "<span color='#f8f8f2'><b>{}</b></span>",
-                "weeks": "<span color='#8be9fd'><b>W{}</b></span>",
-                "weekdays": "<span color='#ffb86c'><b>{}</b></span>",
-                "today": "<span color='#50fa7b'><b><u>{}</u></b></span>"
-            }
-        },
-        "actions": {
-                "on-click-right": "mode",
-                "on-scroll-up": "shift_up",
-                "on-scroll-down": "shift_down"
         }
     },
     // modules-right
