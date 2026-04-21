@@ -47,12 +47,12 @@
                 "weeks": "<span color='#8be9fd'><b>W{}</b></span>",
                 "weekdays": "<span color='#ffb86c'><b>{}</b></span>",
                 "today": "<span color='#50fa7b'><b><u>{}</u></b></span>"
-            },
-            "actions": {
+            }
+        },
+        "actions": {
                 "on-click-right": "mode",
                 "on-scroll-up": "shift_up",
                 "on-scroll-down": "shift_down"
-            }
         }
     },
     // modules-right
