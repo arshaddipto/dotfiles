@@ -93,6 +93,10 @@ tooltip {
     border-radius: 8px;
 }
 
+tooltip label {
+    color: @on_surface;
+}
+
 menu menuitem:hover {
     background-color: alpha(@on_surface, 0.08);
     color: inherit;
