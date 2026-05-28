@@ -23,8 +23,6 @@
         "group/resource-monitor",
         "network",
         "wireplumber",
-        "power-profiles-daemon",
-        "group/battery-management",
         "custom/power"
     ],
     // modules-left

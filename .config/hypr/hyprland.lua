@@ -51,6 +51,7 @@ hl.on("hyprland.start", function()
     -- Consider uncommenting if several notification daemons are installed on your system
     -- hl.exec_cmd("swaync")
     hl.exec_cmd("swayosd-server")
+    hl.exec_cmd("spice-vdagent")
 end)
 
 -------------------------------
