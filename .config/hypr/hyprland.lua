@@ -241,6 +241,12 @@ hl.gesture({
     action = "workspace",
 })
 
+hl.config({
+    cursor = {
+        inactive_timeout = 3,
+    }
+})
+
 -- Example per-device config
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
 -- hl.device({
