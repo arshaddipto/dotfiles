@@ -47,7 +47,10 @@ local menu = "rofi -show drun"
 hl.on("hyprland.start", function()
     hl.exec_cmd("waybar & hyprpaper & hypridle")
     hl.exec_cmd("systemctl --user start hyprpolkitagent")
-    hl.exec_cmd("swaync & swayosd-server")
+    -- swaync is autostarted via D-bus activation when a notification is emitted
+    -- Consider uncommenting if several notification daemons are installed on your system
+    -- hl.exec_cmd("swaync")
+    hl.exec_cmd("swayosd-server")
 end)
 
 -------------------------------
