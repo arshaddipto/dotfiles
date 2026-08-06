@@ -1,5 +1,3 @@
-@import "colors.rasi"
-
 configuration {
     show-icons: true;
 
