@@ -368,12 +368,12 @@ hl.bind(
 )
 hl.bind(
     "XF86MonBrightnessUp",
-    hl.dsp.exec_cmd("swayosd-client --brightness raise"),
+    hl.dsp.exec_cmd("swayosd-client --brightness +2"),
     { locked = true, repeating = true }
 )
 hl.bind(
     "XF86MonBrightnessDown",
-    hl.dsp.exec_cmd("swayosd-client --brightness lower"),
+    hl.dsp.exec_cmd("swayosd-client --brightness -2"),
     { locked = true, repeating = true }
 )
 
